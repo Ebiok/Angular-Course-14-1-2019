@@ -1,0 +1,10 @@
+<h1>Instructors</h1>
+<div class="gallery">
+    <img appGreyscale="50%" [style.border]="instructor == selectedInstructor ? '3px solid #003C70':''" *ngFor="let instructor of instructors" [src]="'/assets/images/' + instructor.src" [alt]="instructor.firstname" (click)="selectInstructor(instructor)">
+</div>
+
+<div class="selected-instructor" *ngIf="selectedInstructor">
+    <h3>{{selectedInstructor.firstname}} {{selectedInstructor.surname}}</h3>
+    <img [src]="'/assets/images/' + selectedInstructor.src" alt="">
+    <p>{{selectedInstructor.bio}}</p>
+</div>

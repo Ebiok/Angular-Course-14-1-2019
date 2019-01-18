@@ -1,0 +1,52 @@
+.flex-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    margin-top: 1em;
+}
+
+input, select {
+    border: 1px solid grey;
+}
+
+label {
+    flex: 0 1 20%;
+}
+
+.btn-wrapper {
+    width: 20%;
+    text-align: right;
+    margin-top: 1em;
+}
+
+/*form validation styles*/
+
+input.ng-dirty.ng-invalid {
+    box-sizing: border-box;
+    border-right: 8px solid red;
+}
+
+input.ng-dirty.ng-valid {
+    box-sizing: border-box;
+    border-right: 8px solid green;
+}
+
+@media (min-width: 1000px) {
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-top: 1em;
+}
+
+input, select {
+    flex: 0 1 20%;
+    border: 1px solid grey;
+}
+
+label {
+    text-align: right;
+    flex: 0 1 20%;
+    margin-right: 1em;
+}
+}

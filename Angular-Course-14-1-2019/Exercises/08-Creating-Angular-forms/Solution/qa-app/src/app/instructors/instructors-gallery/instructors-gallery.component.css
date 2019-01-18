@@ -1,0 +1,29 @@
+.gallery img {
+    border-radius: 50%;
+    width: 75px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.selected-instructor {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.selected-instructor img {
+    flex: 0 0 auto;
+    border-radius: 50%;
+}
+
+.selected-instructor p {
+    flex: 1 1 0;
+    margin-left: 1em;
+    text-align: justify;
+}
+
+.selected-instructor h3 {
+    flex: 0 0 100%;
+}

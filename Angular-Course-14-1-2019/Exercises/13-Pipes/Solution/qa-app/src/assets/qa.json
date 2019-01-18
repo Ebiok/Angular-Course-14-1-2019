@@ -1,0 +1,131 @@
+{
+  "coursesResults": [{
+      "id": 1,
+      "title": "Building JavaScript Applications Using NodeJS and the MEAN Stack",
+      "code": "qanodedev",
+      "delivery": "Classroom",
+      "days": 3,
+      "description": "In this course you will learn how to leverage javascript in end to end application development using javascript. Using NodeJS and the MEAN stack you will learn how to build open source modular and component based web applications to build service driven application with a single web page user interface"
+    },
+    {
+      "id": 2,
+      "title": "Developing MVC single-page web applications using AngularJS",
+      "code": "QAAngularJS",
+      "delivery": "Classroom",
+      "days": 2,
+      "description": "Google's Angular framework (often referred to as Angular 2) is the next iteration of the widely known AngularJS framework which allows developers to build smart client-side applications that enhance the user experience. This course is a practical walk-through for both those entirely new to Angular and those coming from AngularJS; and leverages the power of TypeScript to help build highly scalable applications."
+    },
+    {
+      "id": 3,
+      "title": "Developing Web Applications Using HTML5",
+      "code": "QAWebUI",
+      "delivery": "Classroom",
+      "days": 5,
+      "description": "HTML5 is the emerging future of web development supported in all modern browsers. A suite of connected technologies leverage HTML, Javascript and CSS to create a high performance web application without the need for plugin technology and with reduced calls to servers. This course takes developers with some experience of the core technologies into this brave new world whilst supporting the legacy technologies that most organisations must still support where you will learn best practice, how to utilise modern scripting libraries and migrate yourself and your organisation into the next wave of web applications."
+    },
+    {
+      "id": 4,
+      "title": "Leveraging the Power of JQuery",
+      "code": "QAJQuery",
+      "delivery": "Classroom",
+      "days": 3,
+      "description": "'Write less, do more!' is the moto of the jQuery JavaScript development team. The free open source development platform is an essential skill for any web site. Leveraging the power of jQuery will teach you how to integrate jQuery into existing sites, understand how it works and send you on your first steps of jQuery application development. Developed as a vendor neutral course it is suitable for existing Javascript developers or experienced web application developers. The course focuses on understanding and building with jQuery and examining some of the most useful extensions to the core, such as jQueryUI and a variety of plugins allowing a developer to hit the ground running as soon as the course is over."
+    },
+    {
+      "id": 5,
+      "title": "Programming with JavaScript",
+      "code": "QAJAVSC",
+      "delivery": "Classroom",
+      "days": 5,
+      "description": "From the simplest webpage to complex Enterprise scale web applications Javascript is an essential skill for any developer or designer. This course takes an in-depth look, from first principals in how to effectively program javascript through to best practices for large scale reusable code libraries"
+    },
+    {
+      "id": 6,
+      "title": "Next Generation JavaScript: ECMAScript2015",
+      "code": "qaES2015",
+      "delivery": "Classroom",
+      "days": 2,
+      "description": "ECMAScript 2015 (6th Edition) is the first update to the specification since 2009 and adds in significant new features and capabilities to the language. This course looks at how we can utilise new syntax, constructs, objects and methods in order to develop your applications in new, cleaner, faster ways."
+    },
+    {
+      "id": 7,
+      "title": "Building Web Applications Using Angular",
+      "code": "QAAngular",
+      "delivery": "Classroom",
+      "days": 3,
+      "description": "Google's AngularJS JavaScript framework allows web developers to create smart clients creating rich decision making User Interfaces that enhance your end users experience. In this two-day practical course, we will teach you how to implement MVC applications using AngularJS and leverage the modern developer toolbox that includes Yeoman, Gulp and NPM."
+    }
+  ],
+  "instructorResults": [{
+      "firstname": "Adrian",
+      "surname": "Jakeman",
+      "courses": [
+        "QANODEDEV",
+        "QAANGULARJS",
+        "QAES2015",
+        "QAJAVSC",
+        "QAJQUERY",
+        "QAWEBUI"
+      ],
+      "location": "London",
+      "bio": "Adrian has worked in the IT and education industries for the past 25 years and joined QA in 2006 with a focus on the development and delivery of training around Visual Studio, Team Foundation Server and the software development lifecycle. Still to be found in the classroom delivering training around Application Lifecycle Management, he is also responsible for the day-to-day management of QA’s IT curriculum. He has particular focus on the quality, breadth, depth and relevance of both vendor-produced courses and the extensive QA-authored portfolio. Areas of expertise: Teaching and learning effectiveness, Application Lifecycle Management, Cloud computing, Team Foundation Server.",
+      "src": "adrian.png"
+    },
+    {
+      "firstname": "Laurence",
+      "surname": "Sharp",
+      "courses": [
+        "QANODEDEV",
+        "QAANGULARJS",
+        "QAES2015",
+        "QAJAVSC",
+        "QAJQUERY",
+        "QAWEBUI"
+      ],
+      "location": "London",
+      "bio": "Having been a chartered surveyor with computing as a hobby, Laurence made a midlife career choice and joined QA in 1994. Originally specialising in desktop applications and end user training he is now a principal consultant in the internet and web technologies area and has been the lead trainer on several key projects with responsibility for overall training design and delivery. As well as delivering courses in most of the web technologies he has also developed several of the QA authored technical and client specific courses. Laurence is constantly researching and exploring the exiting technologies that are appearing in the internet and web development solution area and gets a lot of satisfaction in passing this new information on to our delegates.",
+      "src": "laurence.png"
+    },
+    {
+      "firstname": "David",
+      "surname": "Walker",
+      "courses": [
+        "QANODEDEV",
+        "QAANGULARJS",
+        "QAES2015",
+        "QAJAVSC",
+        "QAJQUERY",
+        "QAWEBUI"
+      ],
+      "location": "Edinburgh",
+      "bio": "David is a change driven technologist who continually looks to adapt and expand his knowledge and understanding of his field. Over the least eighteen years David has led technology and training companies through emerging fields and technology trends helping them to understand the future and develop business opportunities. As Head of Emerging Technologies he works closely with customers and industry experts to ensure the opportunities and threats of new technology trends designing custom learning solutions to help small and enterprise organisation adapt and make the most of their people - ensuring QA is ready when our customers need to navigate the minefield of the fast moving digital landscape. His passion is in advanced web engineering principals and vendor neutral thick client design/development technologies reflected in his research, analysis and courseware development experience combined with his training delivery skills. As a technologist he is the lead instructor and syllabus author for web development technologies and specialising in Agile, DevOps, and User Experience driven approaches to developing solutions. He has authored courses such as HTML5, Responsive Web Development, User Experience, NodeJS, Javascript and jQuery.",
+      "src": "david.png"
+    },
+    {
+      "firstname": "Katrina",
+      "surname": "McIvor",
+      "courses": [
+        "QADEVOPPRAC"
+      ],
+      "location": "Birmingham",
+      "bio": "Katrina joined QA in the summer of 2014. Before working for QA she was involved in teaching and research, firstly at The University of Birmingham, where she completed her PhD in Computer Science (specialising in agents and AI), and then at Aston University, where she was a lecturer and ran the programming support office. She has around six years' experience teaching individuals, small groups and large lecture audiences. Katrina is a published researcher both nationally and internationally specialising in AI, agents and robotics. Katrina is passionate about all things technical and specialises in teaching Java, Scala, Web Technologies and DevOps within QA.",
+      "src": "kat.jpg"
+    }
+  ],
+  "locationsResults": [{
+      "location": "Birmingham",
+      "mapUrl": "https://maps.googleapis.com/maps/api/staticmap?center=52.476097,-1.898921&zoom=15&size=300x300&maptype=roadmap&markers=color:blue%7Clabel:%7C52.476097,-1.898921",
+      "mapSrc": "birmingham.png"
+    },
+    {
+      "location": "London",
+      "mapUrl": "https://maps.googleapis.com/maps/api/staticmap?center=51.507452,-0.073752&zoom=15&size=300x300&maptype=roadmap&markers=color:blue%7Clabel:%7C51.507452,-0.073752",
+      "mapSrc": "LIH.png"
+    },
+    {
+      "location": "Edinburgh",
+      "mapUrl": "https://maps.googleapis.com/maps/api/staticmap?center=55.933451,-3.306&zoom=14&size=300x300&maptype=roadmap&markers=color:blue%7Clabel:%7C55.933451,-3.306",
+      "mapSrc": "edinburgh.png"
+    }
+  ]
+}

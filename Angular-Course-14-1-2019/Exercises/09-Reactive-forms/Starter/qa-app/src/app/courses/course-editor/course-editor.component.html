@@ -1,0 +1,26 @@
+<h2>Course Detail</h2>
+<h3>Please select a course</h3>
+
+<form>
+  <div class="flex-wrapper">
+    <label for="title">Title:</label>
+    <select>
+      <option *ngFor="let course of courses" [value]="course.title">{{course.title}}</option>
+    </select>
+  </div>
+  <div class="flex-wrapper">
+    <label>Course Code: </label>
+    <input>
+  </div>
+  <div class="flex-wrapper">
+    <label>Delivery Method: </label>
+    <input>
+  </div>
+  <div class="flex-wrapper">
+    <label>Course Length: </label>
+    <input type="number">
+  </div>
+  <div class="btn-wrapper">
+    <button type="submit">Submit</button>
+  </div>
+</form>

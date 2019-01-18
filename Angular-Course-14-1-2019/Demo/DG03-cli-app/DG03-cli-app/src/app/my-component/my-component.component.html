@@ -1,0 +1,28 @@
+<p>
+  my-component works!
+</p>
+<h1>{{title}}</h1>
+<section [ngStyle]="currentStyles">
+<!-- attribute biding -->
+<h1 [class] = "qaClasses"> {{title}}</h1>
+
+<p [class.red]= "red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, dicta quaerat, 
+  qui blanditiis eos animi excepturi eum placeat repellat nesciunt dolore officia tempore quidem laborum 
+  cumque sed tempora corporis laudantium? Modi odit neque veniam. Dicta labore sit ex tempore nam consequuntur 
+  reprehenderit consequatur alias sint, debitis ad minima, aliquid amet voluptas, laboriosam eum. Tenetur maxime 
+  culpa similique a dolore exercitationem. Dignissimos cupiditate reiciendis laudantium inventore deserunt esse! Nesciunt dolores nobis cumque, architecto hic ab minima facilis libero asperiores sapiente. Magni quibusdam atque reprehenderit fuga maiores, similique ducimus, quasi inventore quod illum rerum quia repudiandae, sit nihil ullam voluptatibus consequuntur accusantium.
+</p>
+
+<!-- style binding-->
+
+<p [style.color]="selected ? 'deepskyblue': 'black'">
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio laudantium architecto hic sint natus molestiae magni veritatis! Exercitationem, ducimus aperiam laudantium incidunt ipsum magni molestias perferendis repellendus repudiandae? Commodi, distinctio.
+
+</p>
+
+<button (click) = "valid = !valid;  setCurrentStyles()"> Validate </button>
+<button (click)= "sendMessage()">say anything..</button>
+
+<!--hello-->
+<img [src]= "imgUrl" alt= "Picture"> 
+</section>

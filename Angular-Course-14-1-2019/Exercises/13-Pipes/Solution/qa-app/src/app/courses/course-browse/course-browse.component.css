@@ -1,0 +1,40 @@
+.qa-courses {
+    padding: 2em;
+}
+
+.qa-courses ul {
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0;
+    text-align: justify;
+    border: 2px solid rgb(0, 60, 112);
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.qa-courses li {
+    padding: 3px;
+}
+
+.qa-courses li:first-child {
+    font-weight: bold;
+    border-bottom: 1px solid rgb(0, 60, 112);
+}
+
+section {
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .qa-courses ul {
+        display: inline-block;
+        width: 48%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .qa-courses ul {
+        display: inline-block;
+        width: 30%;
+    }
+}

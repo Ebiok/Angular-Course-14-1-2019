@@ -1,0 +1,35 @@
+<h1>Edit a Course</h1>
+<h3>Please select a course</h3>
+
+<form action="" #courseForm="ngForm" (ngSubmit)="onSubmit()">
+    <div class="flex-wrapper">
+        <label for="title">Title</label>
+        <select name="title" id="title" [(ngModel)]="selectedCourse" [disabled]="courseForm.form.invalid">
+            <option *ngFor="let course of courses" [ngValue]="course">{{course.title}}</option>
+        </select>
+    </div>
+
+    <div *ngIf="selectedCourse">
+        <div class="flex-wrapper">
+            <label for="code">Course Code</label>
+            <input type="text" id="code" name="code" [(ngModel)]="selectedCourse.code" #code="ngModel" required>
+            <div *ngIf="code.dirty && code.invalid">Please enter the course code</div>
+        </div>
+
+        <div class="flex-wrapper">
+            <label for="delivery">Delivery method</label>
+            <input type="text" id="delivery" name="delivery" [(ngModel)]="selectedCourse.delivery" #delivery="ngModel" required>
+            <div *ngIf="delivery.dirty && delivery.invalid">Please enter the delivery method</div>
+        </div>
+
+        <div class="flex-wrapper">
+            <label for="days">Course length</label>
+            <input type="number" id="days" name="days" [(ngModel)]="selectedCourse.days" #days="ngModel" required>
+            <div *ngIf="days.dirty && days.invalid">Please enter the length of this course in days</div>
+        </div>
+        
+        <div class="btn-wrapper">
+            <button type="submit" [disabled]="courseForm.form.invalid">Submit</button>
+        </div>
+    </div>
+</form>

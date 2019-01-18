@@ -1,0 +1,4 @@
+<div *ngFor="let location of locations">
+    <p>{{location.location}}</p>
+    <img [src]="'/assets/images/' + location.mapSrc" alt="Map of the area">
+</div>

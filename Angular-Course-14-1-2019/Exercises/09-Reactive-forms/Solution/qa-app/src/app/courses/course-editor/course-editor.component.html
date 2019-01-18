@@ -1,0 +1,41 @@
+<h2>Course Detail</h2>
+<h3>Please select a course</h3>
+
+<form [formGroup]="courseForm" (ngSubmit)="onSubmit()">
+  <div class="flex-wrapper">
+    <label for="title">Title:</label>
+    <select formControlName="title">
+      <option *ngFor="let course of courses" [value]="course.title">{{course.title}}</option>
+    </select>
+  </div>
+  <div *ngIf="course">
+    <div class="flex-wrapper">
+      <label>Course Code: </label>
+      <input formControlName="code">
+      <div *ngIf="code.invalid && (code.dirty || code.touched)">
+        <div *ngIf="code.errors.required">Course Code is required</div>
+        <div *ngIf="code.errors.allowedCourseCode && !code.errors.required">
+          Course code must be QA followed by at least 3 letters
+        </div>
+      </div>
+    </div>
+    <div class="flex-wrapper">
+      <label>Delivery Method: </label>
+      <input formControlName="delivery">
+      <div *ngIf="delivery.invalid && (delivery.dirty || delivery.touched)">
+        <div *ngIf="delivery.errors.required">Delivery Method is required</div>
+      </div>
+    </div>
+    <div class="flex-wrapper">
+      <label>Course Length: </label>
+      <input type="number" formControlName="days">
+      <div *ngIf="days.invalid && (days.dirty || days.touched)">
+        <div *ngIf="days.errors.required">Course Length is required</div>
+        <div *ngIf="days.errors.min">Course Length should be at least 1</div>
+      </div>
+    </div>
+    <div class="btn-wrapper">
+        <button type="submit" [disabled]="courseForm.invalid || (code.pristine && delivery.pristine && days.pristine)">Submit</button>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,31 @@
+<header>
+    <img src="../assets/images/logo.svg" alt="QA Mission: Transforming performance through learning">
+
+    <nav>
+        <ul>
+            <li><a href="">Courses</a></li>
+            <li><a href="">Instructors</a></li>
+            <li><a href="">Locations</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Courses available at QA</h1>
+
+    <section class="qa-courses">
+        <ul *ngFor="let course of displayCourses">
+            <li>{{course.title}}</li>
+            <li>{{course.code}}</li>
+            <li>{{course.delivery}}</li>
+            <li>{{course.days}} days</li>
+        </ul>
+    </section>
+    <app-instructors-gallery (change)="doInstructorChange($event)" [thumbnails]="'m'"></app-instructors-gallery>
+    <app-course-editor></app-course-editor>
+</main>
+
+<footer>
+    &copy; 1996-2017 QA Limited
+</footer>

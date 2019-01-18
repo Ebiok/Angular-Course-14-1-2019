@@ -1,0 +1,11 @@
+<h1>Courses available at QA</h1>
+
+<section class="qa-courses">
+    <ul *ngFor="let course of courses">
+        <li>{{course.title}}</li>
+        <li>{{course.code}}</li>
+        <li>{{course.delivery}}</li>
+        <li>{{course.days}} days</li>
+        <li><button (click)="navToEdit(course.code)">Edit</button>
+    </ul>
+</section>
